@@ -821,4 +821,10 @@ body{
   #RSVP_btn{
     padding-right: 10px;
   }
+
+  #RSVP_btn p{
+  color: var(--main);
+
+  font-family: Lora;
+  }
 }
