@@ -651,7 +651,19 @@ body{
 }
 
 @media (min-width: 600px) and (max-width: 1023px){
-  
+  :root{
+    --env-w: 50vw;
+  }
+  #S2{
+    background-image: var(--bg2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #title{
+    font-size: 130px;
+  }
 }
 
 
