@@ -664,6 +664,10 @@ body{
   #title{
     font-size: 170px;
   }
+
+  .info_nav{
+    width: 15%;
+  }
 }
 
 
