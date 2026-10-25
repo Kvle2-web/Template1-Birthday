@@ -757,6 +757,20 @@ body{
 
     margin-top: 150px;
   }
+  #title_container2 h1{
+  color: var(--main);
+  
+  font-family: MyFont2;
+  font-size: 50px;
+  
+  }
+  .card2_p p{
+  color: var(--main);
+  font-size: 25px;
+
+  font-family: Lora;
+  }
+  
   #info_card3{
     width: 35%;
     height: 550px;
