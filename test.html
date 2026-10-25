@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { margin: 0; background: #222; overflow: hidden; }
+  #box { width: 1280px; height: 800px; border: 0;
+         background: #fff; transform-origin: top left; }
+</style>
+</head>
+<body>
+<iframe id="box" src="index.html"></iframe>
+<script>
+  const s = Math.min(1, screen.width / 1280);
+  document.getElementById('box').style.transform = 'scale(' + s + ')';
+</script>
+</body>
+</html>
