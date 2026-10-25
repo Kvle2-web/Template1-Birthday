@@ -714,3 +714,27 @@ body{
     padding-right: 10px;
   }
 }
+
+@media (min-width: 1440px){
+:root{
+    --env-w: 30vw;
+  }
+  #S2{
+    background-image: var(--bg2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #title{
+    font-size: 150px;
+  }
+
+  #letter{
+    width: 25%;
+  }
+
+  .info_nav{
+    width: 10%;
+  }
+  
+}
