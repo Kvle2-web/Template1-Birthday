@@ -646,10 +646,16 @@ body{
 }
 
 
+@media (max-width: 320px){
+  
+}
+
+@media (min-width: 600px) and (max-width: 1023px){
+  
+}
 
 
-
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1439px){
     :root{
     --env-w: 30vw;
     }
