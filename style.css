@@ -797,11 +797,24 @@ body{
 
     margin-top: 150px;
   }
+  #title_container4 h1{
+  color: var(--main);
+  
+  font-family: MyFont2;
+  font-size: 55px;
+  
+  }
+  #info_card4 p{
+  color: var(--secondary);
+  font-size: 18px;
+
+  font-family: Lora;
+  }
   #I4p{
     padding-left:5px;
   }
   #info_card4 p{
-    padding-left:20px;
+    padding-left:30px;
   }
 
   #RSVP_btn{
