@@ -736,5 +736,39 @@ body{
   .info_nav{
     width: 10%;
   }
-  
+
+  #info_card{
+    width: 25%;
+    height: 350px;
+
+    margin-top: 50px;
+  }
+  #info_card2{
+    width: 35%;
+    height: 550px;
+
+    margin-top: 50px;
+  }
+  #info_card3{
+    width: 35%;
+    height: 550px;
+
+    margin-top: 50px;
+  }
+  #info_card4{
+    width: 35%;
+    height: 450px;
+
+    margin-top: 50px;
+  }
+  #I4p{
+    padding-left:5px;
+  }
+  #info_card4 p{
+    padding-left:20px;
+  }
+
+  #RSVP_btn{
+    padding-right: 10px;
+  }
 }
