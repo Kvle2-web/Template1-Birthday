@@ -738,11 +738,19 @@ body{
   }
 
   #info_card{
-    width: 25%;
-    height: 350px;
+    width: 30%;
+    height: 400px;
 
     margin-top: 150px;
   }
+  #title_container1 h1{
+  color: var(--main);
+  
+  font-family: MyFont2;
+  font-size: 50px;
+  
+  }
+  
   #info_card2{
     width: 35%;
     height: 550px;
