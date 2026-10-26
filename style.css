@@ -690,8 +690,15 @@ body{
   #info_card4{
     max-height: 300px;
   }
+  #btn_container{
+    height: 70px;
+  }
+
+  .card3_p p{
+    font-size: 14px;
+  }
 }
-}
+
 
 @media (min-width: 600px) and (max-width: 1023px){
   :root{
