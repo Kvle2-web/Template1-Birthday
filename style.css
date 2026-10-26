@@ -646,7 +646,7 @@ body{
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 374px){
   #S2{
     background-image: var(--bg2);
     background-size: cover;
@@ -656,6 +656,30 @@ body{
   #letter{
     width: 90%;
     height: 380px;
+  }
+  #letter_title{
+    height:30px;
+  }
+  #letter_title h1{
+    font-size: 25px;
+  }
+  #letter p{
+    font-size: 12px;
+  }
+
+  .info_nav{
+    height: 90px;
+  }
+  .info_nav p{
+    font-size: 18px;
+  }
+
+  #info_card{
+    width:85%;
+    height: 300px;
+  }
+  #title_container1 h1{
+    font-size: 30px;
   }
 }
 
