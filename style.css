@@ -668,7 +668,7 @@ body{
   }
 
   .info_nav{
-    height: 90px;
+    height: 65px;
   }
   .info_nav p{
     font-size: 18px;
@@ -676,11 +676,21 @@ body{
 
   #info_card{
     width:85%;
-    height: 300px;
+    max-height: 300px;
   }
   #title_container1 h1{
     font-size: 30px;
   }
+  #info_card2{
+    max-height: 300px;
+  }
+  #info_card3{
+    max-height: 300px;
+  }
+  #info_card4{
+    max-height: 300px;
+  }
+}
 }
 
 @media (min-width: 600px) and (max-width: 1023px){
