@@ -646,7 +646,7 @@ body{
 }
 
 
-@media (max-width: 374px){
+@media (max-width: 320px){
   #S2{
     background-image: var(--bg2);
     background-size: cover;
